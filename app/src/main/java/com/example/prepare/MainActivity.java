@@ -16,8 +16,37 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
          //Code navigates through the pages from navigation bar
+        BottomNavigationView bottomNav = findViewById(R.id.bottomBar);
+        bottomNav.setOnNavigationItemSelectedListener(navListener);
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_out, new HomeFragment()).commit();
 
     }
+    private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            Fragment selectedFragment = null;
 
+            switch (item.getItemId()){
+                case R.id.nav_home:
+                    selectedFragment = new HomeFragment();
+                    break;
+                case R.id.nav_nav_breathe:
+                    selectedFragment = new BreatheFragment();
+                    break;
+                case R.id.nav_learn:
+                    selectedFragment = new LearnFragment();
+                    break;
+                case R.id.nav_skill:
+                    selectedFragment = new SkillFragment();
+                    break;
+                case R.id.nav_plan:
+                    selectedFragment = new PlanFragment();
+                    break;
+            }
+            getSupportFragmentManager().beginTransaction().replace(R.id.frame_out,selectedFragment).commit();
+
+            return true;
+        }
+    };
 
 }

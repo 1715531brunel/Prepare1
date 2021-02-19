@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/nav_home"
+    android:icon="@drawable/ic_baseline_home_24"
+    android:title="Home"/>
+    <item
+        android:id="@+id/nav_nav_breathe"
+        android:icon="@drawable/ic_baseline_air_24"
+        android:title="Breathe"/>
+    <item
+        android:id="@+id/nav_learn"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Learn"/>
+    <item
+        android:id="@+id/nav_skill"
+        android:icon="@drawable/ic_baseline_handyman_24"
+        android:title="Skill"/>
+    <item
+        android:id="@+id/nav_plan"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="Plan"/>
+
+</menu>

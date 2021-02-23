@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Prepare</string>
+    <string name="test_anxiety_questionaire">Test Anxiety Questionaire</string>
+    <string name="sub_title">Sub title</string>
 </resources>

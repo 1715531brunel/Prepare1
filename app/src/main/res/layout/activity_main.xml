@@ -8,27 +8,8 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="false"
-        android:padding="20dp"
-        android:fontFamily="sans-serif-light"
-        android:text=".."
-        android:textSize="36sp"
-        android:textColor="@color/black"/>
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
-        android:padding="20dp"
-        android:text="Happy Birthday Dear"
-        android:textSize="36sp"
-        android:textColor="@color/black"/>
-    
+    // Navigation bar
     <FrameLayout
         android:id="@+id/frame_out"
         android:layout_width="match_parent"

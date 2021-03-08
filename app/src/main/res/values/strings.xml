@@ -4,4 +4,17 @@
     <string name="sub_title">Sub title</string>
     <string name="prepare_a_companion_to_manage_exam_stress">Prepare: a companion to manage exam stress</string>
     <string name="find_out_support_nationwide">Find out support nationwide</string>
+    <string name="Intro_support_page">The services below offer a wide range of support if you need help for mental health issues.</string>
+    <string name="Call">Call 116 123 to talk to <a href="https://www.samaritans.org/how-we-can-help/contact-samaritan/">Samaritans,</a> or email: jo@samaritans.org for a reply within 24 hours</string>
+    <string name="Intro_sam">If you just need to talk, any time of day or night</string>
+    <string name="TextShout">Text "SHOUT" to 85258 to contact the Shout Crisis Text Line, or text "YM" if you\'re under 19</string>
+    <string name="title_activity_breathe">BreatheActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

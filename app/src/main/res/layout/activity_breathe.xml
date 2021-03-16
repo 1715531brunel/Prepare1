@@ -2,31 +2,60 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#EEF1F6"
+    android:padding="16dp"
     >
+
+
+
+
+    <View
+        android:id="@+id/view_circle_inner"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/breathecircle"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:id="@+id/circle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="HOLD"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
 
     <TextView
         android:id="@+id/timerText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="10:00"
-        android:textSize="48sp"
-        android:textColor="@color/black"
+        android:text="-2:00"
+        android:layout_above="@id/countdownButton"
+        android:textSize="36sp"
+        android:textColor="#5B7EB2"
         android:layout_centerInParent="true"/>
 
     <Button
         android:id="@+id/countdownButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/timerText"
         android:layout_centerInParent="true"
-        android:text="Start" />
+        android:layout_above="@id/exitButton"
+        android:text="Start"
+        android:backgroundTint="@android:color/holo_green_dark" />
+
     <Button
         android:id="@+id/exitButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/countdownButton"
         android:layout_centerInParent="true"
-        android:text="Exit exercise" />
+        android:layout_alignParentBottom="true"
+        android:text="Exit exercise"
+         />
+
 
 </RelativeLayout>

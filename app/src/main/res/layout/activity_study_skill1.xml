@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".StudySkill1Activity">
+
+    <TextView
+        android:id="@+id/Routine1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FirstRoutine"/>
+    <TextView
+        android:id="@+id/Routine2"
+        android:layout_below="@+id/Routine1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/Estimate"/>
+    <TextView
+        android:id="@+id/Routine3"
+        android:layout_below="@+id/Routine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/Freetime"/>
+    <TextView
+        android:id="@+id/Routine4"
+        android:layout_below="@+id/Routine3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/Write"/>
+    <TextView
+        android:id="@+id/Routine5"
+        android:layout_below="@+id/Routine4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/SummaryRoutine1"/>
+
+
+</RelativeLayout>

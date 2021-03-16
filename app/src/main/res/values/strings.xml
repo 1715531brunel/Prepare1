@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">Prepare</string>
+    <string name="app_name">PREPARE</string>
     <string name="test_anxiety_questionaire">Test Anxiety Questionaire</string>
     <string name="sub_title">Sub title</string>
     <string name="prepare_a_companion_to_manage_exam_stress">Prepare: a companion to manage exam stress</string>
     <string name="find_out_support_nationwide">Find out support nationwide</string>
     <string name="Intro_support_page">The services below offer a wide range of support if you need help for mental health issues.</string>
-    <string name="Call">Call 116 123 to talk to <a href="https://www.samaritans.org/how-we-can-help/contact-samaritan/">Samaritans,</a> or email: jo@samaritans.org for a reply within 24 hours</string>
+    <string name="Call">Call 116 123 to talk to <a href="https://www.samaritans.org/how-we-can-help/contact-samaritan/">
+        Samaritans,</a> or email: jo@samaritans.org for a reply within 24 hours</string>
     <string name="Intro_sam">If you just need to talk, any time of day or night</string>
     <string name="TextShout">Text "SHOUT" to 85258 to contact the Shout Crisis Text Line, or text "YM" if you\'re under 19</string>
     <string name="title_activity_breathe">BreatheActivity</string>
@@ -15,6 +16,88 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="box_breathing_info">Box breathing is a technique used in taking slow deep breaths\n
+        \nThis can heighten performance and concentration whiles being a stress reliever.
+    </string>
+    <string name="intro_nhs">If you need help urgently for your mental health,
+        but it\'s not an emergency</string>
+    <string name="speak_gp">Call 111 OR\n\nSpeak to your GP to advise you about helpful treatments and
+        also help you access mental health services.
+      </string>
+    <string name="student_mind_intro">Student Mind</string>
+    <string name="student_mind">Student Mind the UK\'s student mental health charity.</string>
+    <string name="student_mind1">You can access the services and support content they offer<a href="https://www.studentminds.org.uk/"> here</a>
+    </string>
+    <string name="student_nightline_intro">Student Nightline</string>
+    <string name="nightline">You can speak to someone from your university about anything <a href="https://www.nightline.ac.uk/want-to-talk/"> here</a></string>
+    <string name="nightline_intro">Nightline is a listening, emotional support, information and supplies service, run by students for students.</string>
+    <string name="FirstRoutine">First: Create a weekly schedule\n
+        Write out a weekly schedule based on class time activities, free time and job activities
+    </string>
+    <string name="Estimate">Second: Estimate the average amount needed for each subject to obtain a specific grade</string>
+    <string name="Freetime">Third: Schedule blocks of free time between subjects and assign them to study a particular subject
+    </string>
+    <string name="Write">Fourth: Write down what you do whilst studying.Examples are breaks, nervousness.\nNote the length of time it takes to get started on the assignment</string>
+    <string name="SummaryRoutine1">Monitoring of behaviour can lead to change</string>
+    <string name="intro_skill2">A research showed that University students obtaining higher grades reported the following about themselves:</string>
+    <string name="skill2Routine1">Although Students did not assign themselves a specific time to study each subject, they set aside a specific time to study everyday</string>
+    <string name="skill2Routine2">They usually studied during the day between classes and made enjoyable activities upon completing a definite assignment</string>
+    <string name="skill2Routine3">They studied alone</string>
+    <string name="skill2Routine4">They studied a subject continuously for an hour rather than skipping between subjects</string>
+    <string name="skill2Routine5">They began working on voluminous assignments long before the due date</string>
+    <string name="skill2Routine6">They obtained 3–6 hours of exercise each week</string>
+    <string name="skill2Routine7">They spent less time studying material specific to a subject than students receiving lower grades</string>
+    <string name="SQ_intro">SQ3R method is one of the effective ways of transferring reading materials into memory\n The process involves five steps : scan,question,read,recite and review.</string>
+    <string name="SQ_scan"><b>Scan</b>\n Look over an entire chapter, attempt to gain a general understanding of what the author is saying.\n Look at major headings and relationships between them.
+        Read the summary as it provides an overview of what the author thinks its important. \n You can take 5 minutes to complete this activity, picking 5-7 points which are important in the chapter
+
+    </string>
+    <string name="SQ_question"><b>Question</b>\n What are you about to read? Transform major and minor headings into questions and write them into a notebook.
+        This allows you to review chapters using a problem solving frame of reference. Areas of strengths and weakness could be be identified
+        through this process when revising for an exam. \n The three types of questions which are important \n
+        Definitions \n
+        Similarities and Differences \n
+        Examples \n
+    </string>
+    <string name="SQ_read"><b>Read</b>\n Read the chapter carefully now to find answers to questions you have written down
+        You can highlight the answers by the following options: \n
+        Using a personal notation system in the margin of the chapters to quickly find information when revising. Example I=Important, S=Summary VI=Very Important\n
+        Writing the answers in a notebook under the questions. Use key phrases that will trigger recitation of concepts to avoid lengthy answers in notebook.
+        Focus on these major points when reading a specific chapter\n
+        The fist sentence of the paragraph. The rest of the lines usually explains the main point in the first line\n
+        Take note of graphs,table and charts, they summarize key concepts\n
+        Key Phrases which explain important information follow words like "firstly,secondly, thirdly and summary".
+    </string>
+    <string name="SQ_recite"><b>Recite</b>\n Recite answers to questions after reading a whole chapter.
+        This produces a rapid method of learning from both verbal and auditory channel.
+    </string>
+    <string name="SQ_review"><b>Review</b>\n Review material after answering all questions in the chapter.
+        You should take less than 5 minutes to reanswer questions in the chapter from memory. A material that cannot be verbalised is not know.
+    </string>
+    <string name="skill4routine1">One hour lectures usually contains 3–6 main points</string>
+    <string name="introSkill4">This section is about lecture notes and preparing for exams, the following can be followed:</string>
+    <string name="skill4_routine2">Lecturers may present materials in this manner:\n
+
+        Present overview of material that will be covered\n
+        State the main points and label them as important
+    </string>
+    <string name="skill4_routine3">Personal interest of examiner may appear in exams, be aware of them\n
+        Terms such as "being able to apply what you have learnt" implies problem and analogy type questions in exams\n
+        "Knowing the basics" implies short answer and similarities and differences questions. \n
+        The lecture itself will provide materials for an exam through handouts.
+    </string>
+    <string name="skill4_routine4">Always organise lecture notes after you write them down.
+        Do the following after lectures: \n
+        Take a few minutes to skim over notes\n
+        Write down sentences to summarize main points\n
+        Write down points you need clarification for the next lecture
+    </string>
+    <string name="skill4_routine5"><i>Procedures that can help manage anxiety while preparing to take an exam:</i>\n.
+        Arrive early at the test centre \n
+        Bring the proper materials \n
+        Avoid discussions with others about possible questions and answers\n
+        If you cannot recall some material during the exam, try not to panic.
+    </string>
+
 </resources>

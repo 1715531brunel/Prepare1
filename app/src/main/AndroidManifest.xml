@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Prepare">
-        <activity android:name=".BreatheActivity"></activity>
+        <activity android:name=".StudySkill4Activity"></activity>
+        <activity android:name=".StudySkill3Activity" />
+        <activity android:name=".StudySkill2Activity" />
+        <activity android:name=".StudySkill1Activity" />
+        <activity android:name=".ExamAnxietyActivity" />
+        <activity android:name=".BreatheActivity" />
         <activity android:name=".question_page" />
         <activity android:name=".support_page" />
         <activity

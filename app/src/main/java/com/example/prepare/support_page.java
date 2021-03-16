@@ -22,5 +22,13 @@ public class support_page extends AppCompatActivity {
         linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
         linkTextView.setLinkTextColor(Color.BLUE);
 
+        TextView studentMindTextView = findViewById(R.id.hyperlinkText1);
+        studentMindTextView.setMovementMethod(LinkMovementMethod.getInstance());
+        studentMindTextView.setLinkTextColor(Color.BLUE);
+
+        TextView nightLineTextView = findViewById(R.id.hyperlinkText2);
+        nightLineTextView.setMovementMethod(LinkMovementMethod.getInstance());
+        nightLineTextView.setLinkTextColor(Color.BLUE);
+
     }
 }

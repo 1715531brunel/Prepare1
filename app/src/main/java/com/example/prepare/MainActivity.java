@@ -3,7 +3,6 @@ package com.example.prepare;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -19,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
-         //Code navigates through the pages from navigation bar
+
+        //Code navigates through the pages from navigation bar
         BottomNavigationView bottomNav = findViewById(R.id.bottomBar);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_out, new HomeFragment()).commit();
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             Fragment selectedFragment = null;
- // switch statements for selected icons on bottom navigation
+            // switch statements for selected icons on bottom navigation
             switch (item.getItemId()){
                 case R.id.nav_home:
                     selectedFragment = new HomeFragment();

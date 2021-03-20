@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.prepare">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Prepare">
-        <activity android:name=".StudySkill4Activity"></activity>
+        <activity android:name=".PlanActivity" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".StudySkill4Activity" />
         <activity android:name=".StudySkill3Activity" />
         <activity android:name=".StudySkill2Activity" />
         <activity android:name=".StudySkill1Activity" />
@@ -17,6 +23,7 @@
         <activity android:name=".BreatheActivity" />
         <activity android:name=".question_page" />
         <activity android:name=".support_page" />
+        <activity android:name=".Ringing" />
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/SplashScreenTheme">
@@ -27,6 +34,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+
+        <receiver
+            android:name=".TaskReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+        <receiver android:name=".BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

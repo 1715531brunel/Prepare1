@@ -99,5 +99,7 @@
         Avoid discussions with others about possible questions and answers\n
         If you cannot recall some material during the exam, try not to panic.
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Click on the button below to begin creating your reminder!</string>
 
 </resources>

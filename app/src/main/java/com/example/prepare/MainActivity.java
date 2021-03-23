@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         bottomNav.setOnNavigationItemSelectedListener(navListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_out, new HomeFragment()).commit();
 
+
+
     }
 
 

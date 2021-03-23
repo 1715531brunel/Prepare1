@@ -47,9 +47,7 @@ public class BreatheActivity extends AppCompatActivity {
         countdown_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                prepareAnimations();
-                statusText.startAnimation(animationInhaleText);
-                innerCircleView.startAnimation(animationInhaleInnerCircle);
+
                if(timerRunning){
                    pauseTimer();
 
@@ -70,6 +68,7 @@ public class BreatheActivity extends AppCompatActivity {
     }
 
     public void startTimer(){
+
       countdownTimer = new CountDownTimer(timeLeftInMilliseconds,1000) {
           @Override
           public void onTick(long millisUntilFinished) {
@@ -81,18 +80,25 @@ public class BreatheActivity extends AppCompatActivity {
           public void onFinish() {
               timerRunning = false;
               countdown_button.setText("START");
+              finish();
           }
       }.start();
 
         timerRunning = true;
         countdown_button.setText("STOP");
         exit_button.setVisibility(View.INVISIBLE);
+
+        prepareAnimations();
+        statusText.startAnimation(animationInhaleText);
+        innerCircleView.startAnimation(animationInhaleInnerCircle);
+
     }
     private void pauseTimer() {
         countdownTimer.cancel();
         timerRunning = false;
         countdown_button.setVisibility(View.INVISIBLE);
         exit_button.setVisibility(View.VISIBLE);
+
     }
 
     public void updateTimer(){

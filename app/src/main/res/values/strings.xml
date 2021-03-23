@@ -99,7 +99,12 @@
         Avoid discussions with others about possible questions and answers\n
         If you cannot recall some material during the exam, try not to panic.
     </string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Click on the button below to begin creating your reminder!</string>
+    <string name="how_is_the_assessment_calculated"><b>How is the assessment calculated?</b></string>
+    <string name="answer_to_question">You will be asked to rate how often you have been affected by a
+    number of factor from \'not at all\' to  \'always\'.\n \nThere are 10 questions and your total score shows your current level of test anxiety.
+    </string>
+    <string name="assement_duration">The assessment will take no more than five minutes.
+        <p>You will also get a feedback based on what you score from the assessment</p></string>
 
 </resources>

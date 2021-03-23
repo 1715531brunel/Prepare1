@@ -40,15 +40,43 @@ public class AssessActivity extends AppCompatActivity {
         textViewQuest = findViewById(R.id.questView);
         textViewScore = findViewById(R.id.text_view_scores);
         textViewQuestCount = findViewById(R.id.ques_numbers);
-        radGrop = findViewById(R.id.ques_group);
+        radGrop = findViewById(R.id.rad_group);
         radbt1 = findViewById(R.id.radio_butt1);
         radbt2 = findViewById(R.id.radio_butt2);
         radbt3 = findViewById(R.id.radio_butt3);
         radbt4 = findViewById(R.id.radio_butt4);
         radbt5 = findViewById(R.id.radio_butt5);
         btNext = findViewById(R.id.nxt_button);
+
         AssessDbHelper dbHelper = new AssessDbHelper(this);
         questList = dbHelper.getAllQuests();
+        questTotalCount = questList.size();
+
+        showNxtQuest();
+
+    }
+
+    private void showNxtQuest() {
+        radGrop.clearCheck();
+        if (questCounter < questTotalCount) {
+            currentQuest = questList.get(questCounter);
+            textViewQuest.setText(currentQuest.getQuest());
+            radbt1.setText(currentQuest.getOpt1());
+            radbt2.setText(currentQuest.getOpt2());
+            radbt3.setText(currentQuest.getOpt3());
+            radbt4.setText(currentQuest.getOpt4());
+            radbt5.setText(currentQuest.getOpt5());
+            questCounter++;
+            textViewQuestCount.setText("Question: " + questCounter + "/" + questTotalCount);
+            answrd = false;
+
+        }else{
+            finishAssess();
+        }
+    }
+
+    private void finishAssess() {
+        finish();
     }
 
 }

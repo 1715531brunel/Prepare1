@@ -20,7 +20,7 @@
         android:text="Question: 1/x"/>
 
     <TextView
-        android:layout_above="@+id/ques_group"
+        android:layout_above="@+id/rad_group"
         style="@style/widget"
         android:id="@+id/questView"
         android:textSize="20sp"
@@ -30,7 +30,7 @@
 
 
     <RadioGroup
-        android:id="@+id/ques_group"
+        android:id="@+id/rad_group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true">

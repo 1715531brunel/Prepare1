@@ -106,5 +106,25 @@
     </string>
     <string name="assement_duration">The assessment will take no more than five minutes.
         <p>You will also get a feedback based on what you score from the assessment</p></string>
+    <string name="average_anxiety">2.0 - 2.5 - Normal or average test anxiety \nYour score suggest a normal test anxiety level.
+                    "\nThis is only an indicator of how you are feeling at the moment"
+                    " \n\nCome back and re take this assessment if things change</string>
+    <string name="high_normal_anxiety">2.5 - 2.9 - High normal test anxiety \nYour score suggests a mild test anxiety"
+                    " \n\nYour might find the tools in this app helpful in maintaining your well being</string>
+    <string name="moderately_high_anxiety">3.0 - 3.4 - Moderately high (some items rated 4=high) \nYour score suggest a moderately high test anxiety"
+                    " The symptoms may be interfering with your life and maybe causing some distress but may feel manageable"
+                    "\nThe tools in this app can help with some of the symptoms you are experiencing</string>
+    <string name="high_anxiety">3.5 - 3.9 - High test anxiety \nYour score suggest you have a high test anxiety, "
+                    "You may want to speak with your GP/Doctor or use a counselling service"
+                    "\n\nIf your symptoms are causing distress."
+                    "\n\nThe tools in the app  provide some helpful tools to manage symptoms alongside treatment if you require it</string>
+    <string name="extremely_high_anxiety">4.0-5.0 -Extremely high anxiety , \nYour score suggests that you are experiencing high levels of test anxiety at the moment" +
+                    " We recommend booking an appointment with your GP or University Counselling services right away"
+                    "as there are many tools that could help you through this"
+                    "\n\n If you need to speak to someone urgently, you can speak to A&amp;E department or"
+                    "talk to the Samaritans available 24/7(find them on the support page of the app</string>
+    <string name="low_anxiety">1.0 - 1.9 - Comfortably low test anxiety
+Your score suggests that you are not experiencing test anxiety at the moment</string>
+
 
 </resources>

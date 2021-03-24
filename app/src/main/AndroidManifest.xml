@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Prepare">
-        <activity android:name=".AssessActivity"></activity>
+        <activity android:name=".AssessmentResultsActivity"></activity>
+        <activity android:name=".AssessActivity" />
         <activity android:name=".PlanActivity" />
         <activity android:name=".EditActivity" />
         <activity android:name=".StudySkill4Activity" />

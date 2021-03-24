@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AssessmentResultsActivity">
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/score_results"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_text"
+        android:text="Advice:"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/back_to_assessment"
+        style="@style/widget"
+        android:text="RETURN TO ASSESSMENT SECTION"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

@@ -2,6 +2,7 @@ package com.example.prepare;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.view.View;
@@ -31,6 +32,7 @@ public class AssessActivity extends AppCompatActivity {
     private int questTotalCount;
     private Quest currentQuest;
     private int scores;
+    private double scoreAccumalate;
     private boolean answrd;
 
 
@@ -133,7 +135,13 @@ public class AssessActivity extends AppCompatActivity {
     }
 
     private void finishAssess() {
+        scoreAccumalate = scores/10.0;
+        Intent intent = new Intent(AssessActivity.this, AssessmentResultsActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putDouble("finalScore",scoreAccumalate);
+        intent.putExtras(bundle);
         finish();
+        startActivity(intent);
     }
 
 }

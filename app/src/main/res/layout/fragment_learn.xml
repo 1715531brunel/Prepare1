@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/learn_card"
         android:layout_below="@+id/intro_learn"
-        card_view:cardBackgroundColor="@color/white"
+        card_view:cardBackgroundColor="#5B7EB2"
         card_view:cardElevation="3dp"
         card_view:cardCornerRadius="4dp"
         >
@@ -40,7 +40,7 @@
                 android:layout_marginBottom="28dp"
                 android:fontFamily="@font/roboto"
                 android:text="Exam Anxiety"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 

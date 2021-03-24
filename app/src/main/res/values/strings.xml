@@ -3,7 +3,7 @@
     <string name="test_anxiety_questionaire">Test Anxiety Questionaire</string>
     <string name="sub_title">Sub title</string>
     <string name="prepare_a_companion_to_manage_exam_stress">Prepare: a companion to manage exam stress</string>
-    <string name="find_out_support_nationwide">Find out support nationwide</string>
+    <string name="find_out_support_nationwide">Find Out Support Nationwide</string>
     <string name="Intro_support_page">The services below offer a wide range of support if you need help for mental health issues.</string>
     <string name="Call">Call 116 123 to talk to <a href="https://www.samaritans.org/how-we-can-help/contact-samaritan/">
         Samaritans,</a> or email: jo@samaritans.org for a reply within 24 hours</string>
@@ -32,72 +32,72 @@
     <string name="student_nightline_intro">Student Nightline</string>
     <string name="nightline">You can speak to someone from your university about anything <a href="https://www.nightline.ac.uk/want-to-talk/"> here</a></string>
     <string name="nightline_intro">Nightline is a listening, emotional support, information and supplies service, run by students for students.</string>
-    <string name="FirstRoutine">First: Create a weekly schedule\n
+    <string name="FirstRoutine"><ul><li><b>First</b></li></ul>: Create a weekly schedule.
         Write out a weekly schedule based on class time activities, free time and job activities
     </string>
-    <string name="Estimate">Second: Estimate the average amount needed for each subject to obtain a specific grade</string>
-    <string name="Freetime">Third: Schedule blocks of free time between subjects and assign them to study a particular subject
+    <string name="Estimate"><ul><li><b>Second</b></li></ul>: Estimate the average amount needed for each subject to obtain a specific grade</string>
+    <string name="Freetime"><ul><li><b>Third</b></li></ul>: Schedule blocks of free time between subjects and assign them to study a particular subject
     </string>
-    <string name="Write">Fourth: Write down what you do whilst studying.Examples are breaks, nervousness.\nNote the length of time it takes to get started on the assignment</string>
+    <string name="Write"><ul><li><b>Fourth</b></li></ul>: Write down what you do whilst studying.Examples are breaks, nervousness.Note the length of time it takes to get started on the assignment</string>
     <string name="SummaryRoutine1">Monitoring of behaviour can lead to change</string>
     <string name="intro_skill2">A research showed that University students obtaining higher grades reported the following about themselves:</string>
-    <string name="skill2Routine1">Although Students did not assign themselves a specific time to study each subject, they set aside a specific time to study everyday</string>
-    <string name="skill2Routine2">They usually studied during the day between classes and made enjoyable activities upon completing a definite assignment</string>
-    <string name="skill2Routine3">They studied alone</string>
-    <string name="skill2Routine4">They studied a subject continuously for an hour rather than skipping between subjects</string>
-    <string name="skill2Routine5">They began working on voluminous assignments long before the due date</string>
-    <string name="skill2Routine6">They obtained 3–6 hours of exercise each week</string>
-    <string name="skill2Routine7">They spent less time studying material specific to a subject than students receiving lower grades</string>
-    <string name="SQ_intro">SQ3R method is one of the effective ways of transferring reading materials into memory\n The process involves five steps : scan,question,read,recite and review.</string>
-    <string name="SQ_scan"><b>Scan</b>\n Look over an entire chapter, attempt to gain a general understanding of what the author is saying.\n Look at major headings and relationships between them.
-        Read the summary as it provides an overview of what the author thinks its important. \n You can take 5 minutes to complete this activity, picking 5-7 points which are important in the chapter
-
-    </string>
-    <string name="SQ_question"><b>Question</b>\n What are you about to read? Transform major and minor headings into questions and write them into a notebook.
+    <string name="skill2Routine1"><ul><li>Although Students did not assign themselves a specific time to study each subject, they set aside a specific time to study everyday</li></ul></string>
+    <string name="skill2Routine2"><ul><li>They usually studied during the day between classes and made enjoyable activities upon completing a definite assignment</li></ul></string>
+    <string name="skill2Routine3"><ul><li>They studied alone</li></ul></string>
+    <string name="skill2Routine4"><ul><li>They studied a subject continuously for an hour rather than skipping between subjects</li></ul></string>
+    <string name="skill2Routine5"><ul><li>They began working on voluminous assignments long before the due date</li></ul></string>
+    <string name="skill2Routine6"><ul><li>They obtained 3–6 hours of exercise each week</li></ul></string>
+    <string name="skill2Routine7"><ul><li>They spent less time studying material specific to a subject than students receiving lower grades</li></ul></string>
+    <string name="SQ_intro">SQ3R method is one of the effective ways of transferring reading materials into memory.\n<p>The process involves five steps : scan,question,read,recite and review.</p></string>
+    <string name="SQ_scan"><b>Scan</b>\n<p>\nLook over an entire chapter, attempt to gain a general understanding of what the author is saying.\n Look at major headings and relationships between them.
+        Read the summary as it provides an overview of what the author thinks its important. \n\nYou can take 5 minutes to complete this activity, picking 5-7 points which are important in the chapter
+    </p></string>
+    <string name="SQ_question"><b>Question</b>\n<p>\nWhat are you about to read? Transform major and minor headings into questions and write them into a notebook.
         This allows you to review chapters using a problem solving frame of reference. Areas of strengths and weakness could be be identified
-        through this process when revising for an exam. \n The three types of questions which are important \n
-        Definitions \n
-        Similarities and Differences \n
-        Examples \n
+        through this process when revising for an exam.</p> \n<p>The three types of questions which are important</p>
+        \n<ul><li>Definitions</li></ul>\n
+        \n<ul><li>Similarities and Differences</li></ul>\n
+        \n<ul><li>Examples</li></ul>
     </string>
-    <string name="SQ_read"><b>Read</b>\n Read the chapter carefully now to find answers to questions you have written down
-        You can highlight the answers by the following options: \n
-        Using a personal notation system in the margin of the chapters to quickly find information when revising. Example I=Important, S=Summary VI=Very Important\n
-        Writing the answers in a notebook under the questions. Use key phrases that will trigger recitation of concepts to avoid lengthy answers in notebook.
-        Focus on these major points when reading a specific chapter\n
-        The fist sentence of the paragraph. The rest of the lines usually explains the main point in the first line\n
-        Take note of graphs,table and charts, they summarize key concepts\n
-        Key Phrases which explain important information follow words like "firstly,secondly, thirdly and summary".
+    <string name="SQ_read"><b>Read</b> \n<p>\nRead the chapter carefully now to find answers to questions you have written down.
+        You can highlight the answers by the following options:</p>\n
+        \n<p><ul><li>Using a personal notation system in the margin of the chapters to quickly find information when revising.
+        Example I=Important, S=Summary VI=Very Important
+        \n\n<ul><li>Writing the answers in a notebook under the questions.Use key phrases that will trigger recitation of concepts to avoid lengthy answers in notebook.</li></ul>\n
+        \nFocus on these major points when reading a specific chapter:
+        \n<ul><li>The fist sentence of the paragraph. The rest of the lines usually explains the main point in the first line</li></ul>\n
+        \n<ul><li>Take note of graphs,table and charts, they summarize key concepts</li></ul>\n
+        \n<ul><li>Key Phrases which explain important information follow words like "firstly,secondly, thirdly and summary".</li></ul>
+        </li></ul></p></string>
+    <string name="SQ_recite"><b>Recite</b>\n<p>\nRecite answers to questions after reading a whole chapter.
+        This produces a rapid method of learning from both verbal and auditory channel.</p>
     </string>
-    <string name="SQ_recite"><b>Recite</b>\n Recite answers to questions after reading a whole chapter.
-        This produces a rapid method of learning from both verbal and auditory channel.
-    </string>
-    <string name="SQ_review"><b>Review</b>\n Review material after answering all questions in the chapter.
+    <string name="SQ_review"><b>Review</b>\n<p>\nReview material after answering all questions in the chapter.
         You should take less than 5 minutes to reanswer questions in the chapter from memory. A material that cannot be verbalised is not know.
-    </string>
-    <string name="skill4routine1">One hour lectures usually contains 3–6 main points</string>
+    </p></string>
+    <string name="skill4routine1"><ul><li>One hour lectures usually contains 3–6 main points</li></ul></string>
     <string name="introSkill4">This section is about lecture notes and preparing for exams, the following can be followed:</string>
     <string name="skill4_routine2">Lecturers may present materials in this manner:\n
 
-        Present overview of material that will be covered\n
-        State the main points and label them as important
-    </string>
-    <string name="skill4_routine3">Personal interest of examiner may appear in exams, be aware of them\n
-        Terms such as "being able to apply what you have learnt" implies problem and analogy type questions in exams\n
-        "Knowing the basics" implies short answer and similarities and differences questions. \n
-        The lecture itself will provide materials for an exam through handouts.
-    </string>
+        <ul><li>Present overview of material that will be covered</li></ul>\n
+        <ul><li>State the main points and label them as important
+    </li></ul></string>
+    <string name="skill4_routine3">Personal interest of examiner may appear in exams, be aware of them and the examiner\'s philosophy of testing\n
+        \n<ul><li>Terms such as "being able to apply what you have learnt" implies problem and analogy type questions in exams</li></ul>\n
+        \n<ul><li>"Knowing the basics" implies short answer and similarities and differences questions.</li></ul> \n
+        \n<ul><li>The lecture itself will provide materials for an exam through handouts.</li></ul></string>
+
     <string name="skill4_routine4">Always organise lecture notes after you write them down.
-        Do the following after lectures: \n
-        Take a few minutes to skim over notes\n
-        Write down sentences to summarize main points\n
-        Write down points you need clarification for the next lecture
+    Do the following after lectures: \n
+        <ul><li>Take a few minutes to skim over notes</li></ul>\n
+        \n<ul><li>Write down sentences to summarize main points</li></ul>\n
+    \n<ul><li>Write down points you need clarification for the next lecture</li></ul>
     </string>
-    <string name="skill4_routine5"><i>Procedures that can help manage anxiety while preparing to take an exam:</i>\n.
-        Arrive early at the test centre \n
-        Bring the proper materials \n
-        Avoid discussions with others about possible questions and answers\n
-        If you cannot recall some material during the exam, try not to panic.
+    <string name="skill4_routine5"><i>Procedures that can help manage anxiety while preparing to take an exam:</i>\n
+        <ul><li>Arrive early at the test centre</li></ul>\n
+        \n<ul><li>Bring the proper materials</li></ul>\n
+        \n<ul><li>Avoid discussions with others about possible questions and answers</li></ul>\n
+        \n<ul><li>If you cannot recall some material during the exam, try not to panic.</li></ul>
     </string>
     <string name="hello_blank_fragment">Click on the button below to begin creating your reminder!</string>
     <string name="how_is_the_assessment_calculated"><b>How is the assessment calculated?</b></string>

@@ -1,20 +1,13 @@
 <resources>
     <string name="app_name">PREPARE</string>
     <string name="test_anxiety_questionaire">Test Anxiety Questionaire</string>
-    <string name="sub_title">Sub title</string>
-    <string name="prepare_a_companion_to_manage_exam_stress">Prepare: a companion to manage exam stress</string>
+    <string name="prepare_a_companion_to_manage_exam_stress">Welcome to PREPARE: a companion to help you manage exam stress</string>
     <string name="find_out_support_nationwide">Find Out Support Nationwide</string>
     <string name="Intro_support_page">The services below offer a wide range of support if you need help for mental health issues.</string>
     <string name="Call">Call 116 123 to talk to <a href="https://www.samaritans.org/how-we-can-help/contact-samaritan/">
         Samaritans,</a> or email: jo@samaritans.org for a reply within 24 hours</string>
     <string name="Intro_sam">If you just need to talk, any time of day or night</string>
     <string name="TextShout">Text "SHOUT" to 85258 to contact the Shout Crisis Text Line, or text "YM" if you\'re under 19</string>
-    <string name="title_activity_breathe">BreatheActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
 
     <string name="box_breathing_info">Box breathing is a technique used in taking slow deep breaths\n
@@ -34,6 +27,11 @@
     <string name="nightline_intro">Nightline is a listening, emotional support, information and supplies service, run by students for students.</string>
     <string name="FirstRoutine"><ul><li><b>First</b></li></ul>: Create a weekly schedule.
         Write out a weekly schedule based on class time activities, free time and job activities
+    </string>
+    <string name="effects_anxiety">Physical symptoms: headache, nausea, excessive sweating, shortness of breath,
+        rapid heartbeat, lightheadedness, and feeling faint.\n
+        \nEmotional symptoms: Feelings of stress, fear, helplessness, and disappointment, negative thoughts\n
+        \nBehavioral/cognitive symptoms: Difficulty concentrating, thinking negatively, comparing yourself to others, and procrastinating.
     </string>
     <string name="Estimate"><ul><li><b>Second</b></li></ul>: Estimate the average amount needed for each subject to obtain a specific grade</string>
     <string name="Freetime"><ul><li><b>Third</b></li></ul>: Schedule blocks of free time between subjects and assign them to study a particular subject
@@ -99,10 +97,10 @@
         \n<ul><li>Avoid discussions with others about possible questions and answers</li></ul>\n
         \n<ul><li>If you cannot recall some material during the exam, try not to panic.</li></ul>
     </string>
-    <string name="hello_blank_fragment">Click on the button below to begin creating your reminder!</string>
+    <string name="instruction_plan">Click on the button below to begin creating your activities, you will receive a notification when its time for each activity!</string>
     <string name="how_is_the_assessment_calculated"><b>How is the assessment calculated?</b></string>
     <string name="answer_to_question">You will be asked to rate how often you have been affected by a
-    number of factor from \'not at all\' to  \'always\'.\n \nThere are 10 questions and your total score shows your current level of test anxiety.
+    number of factors from \'not at all\' to  \'always\'.\n \nThere are 10 questions and your total score shows your current level of test anxiety.
     </string>
     <string name="assement_duration">The assessment will take no more than five minutes.
         <p>You will also get a feedback based on what you score from the assessment</p></string>
@@ -111,12 +109,11 @@
                     " \n\nCome back and re take this assessment if things change</string>
     <string name="high_normal_anxiety">2.5 - 2.9 - High normal test anxiety \nYour score suggests a mild test anxiety"
                     " \n\nYour might find the tools in this app helpful in maintaining your well being</string>
-    <string name="moderately_high_anxiety">3.0 - 3.4 - Moderately high (some items rated 4=high) \nYour score suggest a moderately high test anxiety"
-                    " The symptoms may be interfering with your life and maybe causing some distress but may feel manageable"
+    <string name="moderately_high_anxiety">3.0 - 3.4 - Moderately high (some items rated 4=high) \nYour score suggest a moderately high test anxiety"\n\nThe symptoms may be interfering with your life and maybe causing some distress but may feel manageable.
                     "\nThe tools in this app can help with some of the symptoms you are experiencing</string>
     <string name="high_anxiety">3.5 - 3.9 - High test anxiety \nYour score suggest you have a high test anxiety, "
                     "You may want to speak with your GP/Doctor or use a counselling service"
-                    "\n\nIf your symptoms are causing distress."
+                    "\nIf your symptoms are causing distress."
                     "\n\nThe tools in the app  provide some helpful tools to manage symptoms alongside treatment if you require it</string>
     <string name="extremely_high_anxiety">4.0-5.0 -Extremely high anxiety , \nYour score suggests that you are experiencing high levels of test anxiety at the moment" +
                     " We recommend booking an appointment with your GP or University Counselling services right away"
@@ -125,6 +122,8 @@
                     "talk to the Samaritans available 24/7(find them on the support page of the app</string>
     <string name="low_anxiety">1.0 - 1.9 - Comfortably low test anxiety
 Your score suggests that you are not experiencing test anxiety at the moment</string>
+    <string name="plan_intro">Planning activities is component of behavioural activation which is essential in reducing anxiety.\n\nBeing able to identify and plan activities such as study time helps you to stay organised and keep your mind focused</string>
+    <string name="skill_intro">This section focuses on study skills training. This serves as part of treatment for test anxiety.\n\nThe skills provide effective ways of studying and preparing for exams.</string>
 
 
 </resources>

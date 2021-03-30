@@ -39,10 +39,11 @@ public class ExamAnxietyActivity extends AppCompatActivity {
 
     public void setExamContentInfo(){
 
-        examContentsList.add(new ExamContent("Overview","Exam anxiety is"));
-        examContentsList.add(new ExamContent("Causes","Its caused by sleepiness"));
-        examContentsList.add(new ExamContent("Effects","Panic"));
-        examContentsList.add(new ExamContent("Problem Solve","Refer to skill section"));
+        examContentsList.add(new ExamContent("Overview","Test anxiety is a combination of physical symptoms and emotional reactions that interfere with your ability to perform well on tests. " +
+                "Many students experience varying levels of test anxiety for a number of different reasons"));
+        examContentsList.add(new ExamContent("Causes","Fear of failure, Lack of preparation, Poor test history, High pressure"));
+        examContentsList.add(new ExamContent("Effects",getString(R.string.effects_anxiety)));
+        examContentsList.add(new ExamContent("Problem Solve","Refer to skills section on how to study and prepare for exams"));
 
 
     }

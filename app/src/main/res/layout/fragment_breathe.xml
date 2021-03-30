@@ -7,8 +7,8 @@
 
     <TextView
         android:id="@+id/intro_breathe"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/widget"
+        android:gravity="center"
         android:layout_marginBottom="16dp"
         android:text="@string/box_breathing_info"
         android:textColor="@color/black"
@@ -32,7 +32,6 @@
             android:layout_marginLeft="16dp">
 
             <TextView
-                android:id="@+id/breatheCardText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"

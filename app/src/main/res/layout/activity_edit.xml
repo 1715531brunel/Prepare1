@@ -75,14 +75,12 @@
 
         <Button
             style="@style/edit_button"
-            android:id="@+id/done"
             android:text="Done"
             android:layout_marginRight="4dp"
             android:onClick="onDoneClick" />
 
         <Button
             style="@style/edit_button"
-            android:id="@+id/cancel"
             android:layout_marginEnd="10dp"
             android:text="Cancel"
             android:onClick="onCancelClick" />

@@ -121,7 +121,7 @@ public class AssessActivity extends AppCompatActivity {
     }
     private void checkAns(){
         answrd = true;
-        textViewScore.setText("Score: " + scores);
+        //textViewScore.setText("Score: " + scores);
         showSol();
     }
 

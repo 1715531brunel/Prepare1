@@ -10,11 +10,12 @@
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:orientation="vertical">
+
         <TextView
-            android:id="@+id/Intro_study_skill3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/SQ_intro"/>
+            android:text="@string/SQ_intro"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
         <TextView
             android:id="@+id/skill2_routine1"
             android:layout_width="match_parent"

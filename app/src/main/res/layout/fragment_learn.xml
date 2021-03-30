@@ -8,8 +8,7 @@
 
     <TextView
         android:id="@+id/intro_learn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/widget"
         android:layout_marginBottom="16dp"
         android:text="Learn about Exam anxiety and CBT strategies to manage it"
         android:textColor="@color/black"
@@ -31,7 +30,6 @@
             android:layout_marginLeft="16dp">
 
             <TextView
-                android:id="@+id/learnCardText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"

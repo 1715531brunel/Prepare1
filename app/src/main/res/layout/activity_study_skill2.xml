@@ -5,11 +5,13 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     tools:context=".StudySkill2Activity">
+
     <TextView
         android:id="@+id/Intro_study_skill2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/intro_skill2"/>
+        android:text="@string/intro_skill2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <TextView
         android:id="@+id/skill2_routine1"
@@ -60,7 +62,6 @@
         android:textStyle="bold"
         android:text="@string/skill2Routine6"/>
     <TextView
-        android:id="@+id/skill2_routine7"
         android:layout_below="@+id/skill2_routine6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

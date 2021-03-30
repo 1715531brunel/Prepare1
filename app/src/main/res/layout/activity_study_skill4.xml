@@ -12,14 +12,12 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/Intro_study_skill4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
-            android:text="@string/introSkill4"/>
+            android:text="@string/introSkill4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <TextView
-            android:id="@+id/skill4_routine1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -27,7 +25,6 @@
             android:layout_marginTop="16dp"
             android:text="@string/skill4routine1"/>
         <TextView
-            android:id="@+id/skill4_routine2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -35,21 +32,18 @@
             android:text="@string/skill4_routine2"/>
 
         <TextView
-            android:id="@+id/skill4_routine3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:textStyle="bold"
             android:text="@string/skill4_routine3"/>
         <TextView
-            android:id="@+id/skill4_routine4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:layout_marginTop="16dp"
             android:text="@string/skill4_routine4"/>
         <TextView
-            android:id="@+id/skill4_routine5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

@@ -13,8 +13,9 @@
 
         <TextView
             style="@style/widget"
+            android:text="This  assessment is designed to help you know how you are doing"
             android:textAlignment="center"
-            android:text="This  assessment is designed to help you know how you are doing" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <TextView
             style="@style/widget"
@@ -30,13 +31,7 @@
             style="@style/widget"
             android:layout_marginTop="16dp"
             android:text="@string/assement_duration" />
-        <TextView
-            android:id="@+id/text_view_highscores"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="32dp"
-            android:text="Highscore: 0"
-            android:textSize="20sp" />
+
 
 
     </LinearLayout>

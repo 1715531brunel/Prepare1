@@ -32,14 +32,6 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.Prepare.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.Prepare.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.Prepare.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <style name="list_item">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>

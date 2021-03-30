@@ -6,10 +6,20 @@
     android:padding = "16dp"
     >
 
+    <TextView
+        style="@style/widget"
+        android:gravity="center"
+        android:id="@+id/planintrotext"
+        android:layout_marginBottom="16dp"
+        android:text="@string/plan_intro"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/planintrotext"
         android:id="@+id/intro_plan"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="4dp"
@@ -25,7 +35,6 @@
             android:layout_marginLeft="16dp">
 
             <TextView
-                android:id="@+id/planCardText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
